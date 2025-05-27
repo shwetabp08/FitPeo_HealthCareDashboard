@@ -1,0 +1,17 @@
+.cardName{
+  color: #3734a9;
+}
+.cardImg{
+  width: 32px;
+  height: 32px;
+}
+.cardDate{
+  font-size: 13px;
+  color: #aaa;
+}
+.cardbgColor{
+  background-color: #f6faff;
+}
+.Detailslink{
+  color: #aaa;
+}

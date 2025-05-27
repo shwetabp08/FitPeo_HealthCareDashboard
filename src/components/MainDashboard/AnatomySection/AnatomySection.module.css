@@ -1,0 +1,29 @@
+
+.anatomyIllustrationContainer {
+  background-color: #f6faff;
+  width: 300px;
+  height: 400px;
+}
+
+.humanBodyImage {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+  object-fit: contain; 
+  position: absolute;
+}
+
+.indicator {
+  position: absolute; 
+  font-weight: 500;
+  white-space: nowrap; 
+  z-index: 2; 
+  border-radius: 10px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+@media(min-width:768px){
+  .indicator{
+    flex-wrap: nowrap;
+  }
+}

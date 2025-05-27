@@ -1,0 +1,75 @@
+/* src/components/Calendar/Calendar.module.css */
+.calendarContainer {
+  background: #f8f9fc;
+  border-radius: 12px;
+  padding:0px 1.5rem;
+  
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: #555;
+}
+
+.dayColumn {
+  width: 13%;
+}
+
+.dayBox {
+  /* background: #f0f0f0; */
+  /* padding: 0.5rem; */
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.activeDay {
+  background: #e3e4ff;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.dayText {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.dateText {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.timeWrapper {
+  margin-bottom: 0.3rem;
+}
+
+.timeSlot {
+  /* background-color: #e3e4ff; */
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: #3734a9;
+  display: inline-block;
+  min-width: 50px;
+}
+
+.selectedTime {
+  background-color: #3734a9;
+  color: white;
+}
+
+.dash {
+  font-size: 1rem;
+  color: #ccc;
+}

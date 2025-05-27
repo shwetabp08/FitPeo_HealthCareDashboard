@@ -1,0 +1,90 @@
+.activityFeed {
+  margin: 10px 20px 0 20px;         
+  background: #f6faff;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 100%;                
+  overflow-x: auto;                
+  box-sizing: border-box;
+}
+
+.chartWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;                         
+  height: 85px;
+  overflow-x: auto;        
+  width: 100%;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3734a9;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 500;
+}
+
+
+.dayColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.barsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  height: 70px;
+}
+
+.chartBar {
+  width: 6px;
+  border-radius: 3px;
+}
+
+.firstBar {
+  background-color: #aaa;
+}
+
+.middleBar {
+  background-color: #3734a9;
+}
+
+.lastBar {
+  background-color: #01e2ee;
+}
+
+.dayLabel {
+  font-size: 12px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .chartBar {
+    width: 4px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+}
