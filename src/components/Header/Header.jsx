@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 import { MdMenu, MdSearch, MdNotifications, MdAdd } from 'react-icons/md';
+import avatar1 from '../../assets/avatar.png';
 
 export default function Header({ toggleSidebar }) {
   return (
@@ -32,7 +33,7 @@ export default function Header({ toggleSidebar }) {
       {/* Right: Avatar & Add */}
       <div className={`col-5 d-flex align-items-center justify-content-end gap-2 pe-lg-5`}>
         <div className={`d-flex align-items-center justify-content-center ms-1 ${styles.rightIcon} ${styles.avatarIcon}`}>
-          <img src="src/assets/avatar.png" alt="Avatar" className={`rounded-circle ${styles.avatar}`} />
+          <img src={avatar1} alt="Avatar" className={`rounded-circle ${styles.avatar}`} />
         </div>
         <div className={`d-flex align-items-center justify-content-center ${styles.rightIcon} ${styles.plusIcon}`}>
           <MdAdd size={25} />
